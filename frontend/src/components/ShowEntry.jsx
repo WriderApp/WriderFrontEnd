@@ -47,5 +47,41 @@ const ShowEntry = () => {
         }
     };
 
-    //Function to handle reading the entrys docType (manuscript/jo)
-}
+    //Function to handle reading the entrys docType (manuscript/journal/moodboard) and then send user to edit form for that specific docType from the show page
+    const handleEdit = () => {
+        //look at current state of our entry
+        if (entry) {
+            //look at the entry's docType - depending on the docType, go to a different edit route
+            switch (entry.docType) {
+                case 'journal':
+                    navigate(`/wrider/edit-journal/${id}`);
+                    break;
+                case 'manuscript':
+                    navigate(`/wrider/edit-manuscript/${id}`);
+                    break;
+                case 'moodBoard':
+                    navigate(`/wrider/edit-moodboard/${id}`);
+                    break;
+                default:
+                    console.error(`Unable to read document type`);
+            }
+        }
+    }
+
+    if (!entry) {
+        return <div>Loading...</div>
+    }
+
+    return (
+        <div>
+            <h1>{entry.title}</h1>
+            <p>{entry.body}</p>
+            <button onClick={handleEdit}>Edit</button>
+            <button onClick={handleDelete}>Delete</button>
+        </div>
+    );
+};
+
+export default ShowEntry;
+
+// Code as per Christopher Sy 
