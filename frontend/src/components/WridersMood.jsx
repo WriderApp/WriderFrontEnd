@@ -88,7 +88,7 @@ const WridersMood = () => {
                 type="date"
                 name="date"
                 value={entry.date}
-                onChange={ehandleChange} />
+                onChange={handleChange} />
             </label>
             <br />
 
@@ -97,7 +97,7 @@ const WridersMood = () => {
                 <textarea
                 name="body"
                 value={entry.body}
-                onChange={ehandleChange}
+                onChange={handleChange}
                 required />
             </label>
             <br />

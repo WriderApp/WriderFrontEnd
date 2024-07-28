@@ -25,7 +25,7 @@ const WridersHome = () => {
 
     return (
         <div>
-            <h1>Welcome back, Christopher</h1>
+            <h1>Welcome back, Wrider User</h1>
             <ul>
                 {entries.map(entry => (
                     <li key={entry._id}>
