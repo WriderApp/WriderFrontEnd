@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './NavBar'
+import '../App.css';
 
 const WridersHome = () => {
     const [entries, setEntries] = useState([]);
@@ -26,6 +28,7 @@ const WridersHome = () => {
     return (
         <div>
             <h1>Welcome back, Wrider User</h1>
+            <Navbar/>
             <ul>
                 {entries.map(entry => (
                     <li key={entry._id}>
