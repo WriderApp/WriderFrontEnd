@@ -37,6 +37,12 @@ const WridersJournal = () => {
         }
     }, [id, URL]);
 
+    const handleChange = (event) => {
+        const { name, value, type, checked } = event.target;
+        setEntry((entryData) => ({...entryData, [name]: type === 'checkbox' ? checked : value,
+        }));
+    };
+
     //change function to be called whenever values from current state is changed
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -91,7 +97,7 @@ const WridersJournal = () => {
                 type="date"
                 name="date"
                 value={entry.date}
-                onChange={ehandleChange} />
+                onChange={handleChange} />
             </label>
             <br />
             <label>
@@ -99,7 +105,7 @@ const WridersJournal = () => {
                 <textarea
                 name="body"
                 value={entry.body}
-                onChange={ehandleChange}
+                onChange={handleChange}
                 required />
             </label>
             <br />
