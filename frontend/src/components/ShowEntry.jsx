@@ -78,6 +78,7 @@ const ShowEntry = () => {
             <p>{entry.body}</p>
             <button onClick={handleEdit}>Edit</button>
             <button onClick={handleDelete}>Delete</button>
+            <button onClick={() => navigate(-1)}>Back</button> 
         </div>
     );
 };
