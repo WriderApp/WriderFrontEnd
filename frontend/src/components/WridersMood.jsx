@@ -105,6 +105,7 @@ const WridersMood = () => {
             {/* <button type="submit">Create Entry</button> */}
             <button type="submit"> {id ? "Save Changes" : "Create Entry"} </button>
         </form>
+        <button onClick={() => navigate(-1)}>Back</button> 
     </div>
     );
 };
