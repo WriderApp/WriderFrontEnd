@@ -25,7 +25,8 @@ const RandomQuote = () => {
 
     return (
         <div>
-            <p>"{random.quote} - {random.source}"</p>
+            <p>"{random.quote}"</p>
+            <p> - {random.source}</p>
         </div>
     );
 };
