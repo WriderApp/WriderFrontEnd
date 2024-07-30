@@ -11,6 +11,10 @@
   padding: 20px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .navbar {
   position: fixed;
   left: 0;
@@ -63,6 +67,28 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.card {
+  max-height: 300px;
+  overflow-y: hidden;
+}
+
+.card-body {
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 20px;
+  /* background: linear-gradient(to bottom, #646cff, #535bf2);
+  animation: card-gradient 2s infinite; */
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -76,10 +102,6 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
 }
 
 .read-the-docs {
