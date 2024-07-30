@@ -54,6 +54,13 @@ ul {
   color: #007bff;
 }
 
+h1 {
+  font-family: "eds-market-bold-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #06aed5;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
