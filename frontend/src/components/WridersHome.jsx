@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./NavBar";
+import RandomQuote from './RandomQuote';
 import "../App.css";
 
 const WridersHome = () => {
@@ -9,6 +10,7 @@ const WridersHome = () => {
   // const URL = 'http://localhost:4000/wrider';
   // const URL = process.env.REACT_APP_API_URL;
   const URL = import.meta.env.VITE_APP_API_URL;
+
   const fetchEntries = async () => {
     try {
       const response = await fetch(`${URL}/wrider`);
@@ -18,12 +20,15 @@ const WridersHome = () => {
       console.error("Failed to fetch entries", error);
     }
   };
+
   useEffect(() => {
     fetchEntries();
   }, []);
+
   return (
     <div>
       <h1>Welcome back, Wrider User</h1>
+      <h2><RandomQuote/></h2>
       {/* <Quote /> */}
       <Navbar />
       <div className="container-fluid overflow-scroll">
