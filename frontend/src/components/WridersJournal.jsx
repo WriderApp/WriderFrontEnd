@@ -63,7 +63,7 @@ const WridersJournal = () => {
                 body: JSON.stringify(entry),
             });
             //Redirect user to /wriders after successful submission
-            navigate("/wriders");
+            navigate("/wrider");
         } catch (error) {
             console.error("Something went wrong with the entry:", error);
         }
