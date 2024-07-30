@@ -102,6 +102,17 @@ const WridersMood = () => {
             </label>
             <br />
 
+            <label>
+                Rating: 
+                <input
+                type="number"
+                name="rating"
+                value={entry.rating}
+                onChange={handleChange}
+                />
+            </label>
+            <br />
+
             {/* <button type="submit">Create Entry</button> */}
             <button type="submit"> {id ? "Save Changes" : "Create Entry"} </button>
         </form>
