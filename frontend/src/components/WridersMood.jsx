@@ -60,7 +60,7 @@ const WridersMood = () => {
 
     return (
         <div>
-            <h1>Mood Board</h1>
+            <h1 className='header'>Mood Board</h1>
         <form onSubmit={handleSubmit}>
             <label>
                 User:
