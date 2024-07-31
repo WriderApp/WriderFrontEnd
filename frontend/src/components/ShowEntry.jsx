@@ -76,7 +76,9 @@ const ShowEntry = () => {
         <div>
             <h1>{entry.title}</h1>
             <p>{entry.body}</p>
-            <img src={`/public/images/${entry.rating}.png`} /><br />
+            <img id="stars" src={`/public/images/${entry.rating}.png`} />
+            <br />
+            <br />
             <button onClick={handleEdit}>Edit</button>
             <button onClick={handleDelete}>Delete</button>
             <button onClick={() => navigate(-1)}>Back</button> 
