@@ -1,17 +1,24 @@
 # Wrider
 #### A full-stack MERN application built as a group project for General Assembly bootcamp.
+Landing Page:
 <img width="1727" alt="Screenshot 2024-07-31 at 15 58 53" src="https://github.com/user-attachments/assets/becf563f-f143-4c22-8746-2006f4532b3d">
+Home Page:
 <img width="1727" alt="Screenshot 2024-07-31 at 15 59 37" src="https://github.com/user-attachments/assets/04a158df-7884-4130-817b-b6ad53e3c4fe">
+Journal Create Page:
 <img width="725" alt="Screenshot 2024-07-31 at 16 00 17" src="https://github.com/user-attachments/assets/cd891352-955f-43dc-aa79-3dcc5910f79a">
+Manuscript Create Page:
 <img width="750" alt="Screenshot 2024-07-31 at 16 01 16" src="https://github.com/user-attachments/assets/856976fc-ce3d-480d-ba76-c7a9f936b6eb">
+Mood Board Create Page:
 <img width="725" alt="Screenshot 2024-07-31 at 16 01 45" src="https://github.com/user-attachments/assets/e70c80fa-71a7-47cd-949a-10f7de3b9684">
-<img width="750" alt="Screenshot 2024-07-31 at 16 02 24" src="https://github.com/user-attachments/assets/18a5f390-7fe4-401d-a8e6-f0be3d471113">
+Example Show Page for Journal & Manuscript:
 <img width="750" alt="Screenshot 2024-07-31 at 16 03 41" src="https://github.com/user-attachments/assets/e6ca9243-e05c-40e7-bb7d-1fd14a4cba20">
+Example Show Page for MoodBoard:
+<img width="750" alt="Screenshot 2024-07-31 at 16 02 24" src="https://github.com/user-attachments/assets/18a5f390-7fe4-401d-a8e6-f0be3d471113">
+Database JSON:
 <img width="880" alt="Screenshot 2024-07-31 at 16 04 27" src="https://github.com/user-attachments/assets/e03434fe-ac19-4779-ab65-fc22f256f319">
 
-
 ## Description
-A simple, mostly text-based application for creatives to organize their thoughts. Styled in such a way as to be reminiscent of bullet journaling.
+A simple, mostly text-based application for creatives to organize their thoughts. Styled in such a way as to be reminiscent of bullet journaling. Name inspired by combining "writer" with "rider" (a performer's list of unique demands).
 
 ## Table of Contents
 * [User Stories](#userstories)
