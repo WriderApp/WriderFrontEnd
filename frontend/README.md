@@ -88,7 +88,7 @@ A simple, mostly text-based application for creatives to organize their thoughts
 ## <a name="deployment"></a>Deployed Link
 Peep the deployed site:
 
-https://wriders.netlify.app/wrider
+https://wrider.netlify.app/
 
 Render back end deployment:
 
