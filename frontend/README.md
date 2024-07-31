@@ -3,7 +3,6 @@
 <img width="1711" alt="Screenshot 2024-07-31 at 14 40 41" src="https://github.com/user-attachments/assets/49c8350d-0f40-42a8-91d8-bd4e390fcf6a">
 <img width="1720" alt="Screenshot 2024-07-31 at 14 44 47" src="https://github.com/user-attachments/assets/760889e9-ead7-405b-ba2b-043606effb84">
 <img width="423" alt="Screenshot 2024-07-31 at 14 46 59" src="https://github.com/user-attachments/assets/25ec9866-beb0-4dad-b42e-707ea586da29">
-<img width="1728" alt="Screenshot 2024-07-31 at 14 47 08" src="https://github.com/user-attachments/assets/39fd3e06-3719-4e96-90fa-a1d73e829d37">
 
 ## Description
 A simple, mostly text-based application for creatives to organize their thoughts. Styled in such a way as to be reminiscent of bullet journaling.
