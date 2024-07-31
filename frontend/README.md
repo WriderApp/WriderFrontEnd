@@ -1,8 +1,14 @@
 # Wrider
 #### A full-stack MERN application built as a group project for General Assembly bootcamp.
-<img width="1711" alt="Screenshot 2024-07-31 at 14 40 41" src="https://github.com/user-attachments/assets/49c8350d-0f40-42a8-91d8-bd4e390fcf6a">
-<img width="1720" alt="Screenshot 2024-07-31 at 14 44 47" src="https://github.com/user-attachments/assets/760889e9-ead7-405b-ba2b-043606effb84">
-<img width="423" alt="Screenshot 2024-07-31 at 14 46 59" src="https://github.com/user-attachments/assets/25ec9866-beb0-4dad-b42e-707ea586da29">
+<img width="1727" alt="Screenshot 2024-07-31 at 15 58 53" src="https://github.com/user-attachments/assets/becf563f-f143-4c22-8746-2006f4532b3d">
+<img width="1727" alt="Screenshot 2024-07-31 at 15 59 37" src="https://github.com/user-attachments/assets/04a158df-7884-4130-817b-b6ad53e3c4fe">
+<img width="725" alt="Screenshot 2024-07-31 at 16 00 17" src="https://github.com/user-attachments/assets/cd891352-955f-43dc-aa79-3dcc5910f79a">
+<img width="750" alt="Screenshot 2024-07-31 at 16 01 16" src="https://github.com/user-attachments/assets/856976fc-ce3d-480d-ba76-c7a9f936b6eb">
+<img width="725" alt="Screenshot 2024-07-31 at 16 01 45" src="https://github.com/user-attachments/assets/e70c80fa-71a7-47cd-949a-10f7de3b9684">
+<img width="750" alt="Screenshot 2024-07-31 at 16 02 24" src="https://github.com/user-attachments/assets/18a5f390-7fe4-401d-a8e6-f0be3d471113">
+<img width="750" alt="Screenshot 2024-07-31 at 16 03 41" src="https://github.com/user-attachments/assets/e6ca9243-e05c-40e7-bb7d-1fd14a4cba20">
+<img width="880" alt="Screenshot 2024-07-31 at 16 04 27" src="https://github.com/user-attachments/assets/e03434fe-ac19-4779-ab65-fc22f256f319">
+
 
 ## Description
 A simple, mostly text-based application for creatives to organize their thoughts. Styled in such a way as to be reminiscent of bullet journaling.
@@ -74,19 +80,19 @@ https://github.com/WriderApp/WriderFrontEnd
 * Check out the back end repository:
 https://github.com/WriderApp/WriderBackEnd
 
-## <a name="author"></a> About the Author
-** Back End Lead: **
+## <a name="author"></a> About the Authors
+**Back End Lead:**
 ```
 Christopher is an up and coming full-stack software developer with a passion for design and all things visual.
 Find Me on GitHub: https://github.com/casy1996
 ```
-** Front End Lead: **
+**Front End Lead:**
 ```
 Elizabeth is self taught in print graphic design, Elizabeth Whitmire (she/her) began her career in 1990. Wanting to broaden her skills, she began studying software development in 2024. She currently lives in Yakima, WA with her dog and cat.
 Find Me on GitHub: https://github.com/MacPhyle
 Design Portfolio: http://whitmire.ink
 ```
-** Scrum Lead: **
+**Scrum Lead:**
 ```
 Nadia is a quirky, fledgling developer with a colorful background in hospitality, manufacturing, and wellness.
 Find me on GitHub: https://github.com/nadianicole1990
