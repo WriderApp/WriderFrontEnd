@@ -11,7 +11,6 @@ const WridersJournal = () => {
         user: "",
         title: "",
         docType: "journal",
-        date: "",
         body: "",
         favorites: false,
     });
@@ -65,6 +64,7 @@ const WridersJournal = () => {
                 onChange={handleChange} />
             </label>
             <br />
+
             <label>
                 Title:
                 <input
@@ -74,15 +74,7 @@ const WridersJournal = () => {
                 onChange={handleChange} />
             </label>
             <br />
-            <label>
-                Date:
-                <input
-                type="date"
-                name="date"
-                value={entry.date}
-                onChange={handleChange} />
-            </label>
-            <br />
+
             <label>
                 Body:
                 <textarea

@@ -9,7 +9,6 @@ const WridersManuscript = () => {
         user: "",
         title: "",
         docType: "manuscript",
-        date: "",
         body: "",
         favorites: false,
     });
@@ -64,6 +63,7 @@ const WridersManuscript = () => {
                         onChange={handleChange} />
                 </label>
                 <br />
+
                 <label>
                     Title:
                     <input
@@ -73,15 +73,7 @@ const WridersManuscript = () => {
                         onChange={handleChange} />
                 </label>
                 <br />
-                <label>
-                    Date:
-                    <input
-                        type="date"
-                        name="date"
-                        value={entry.date}
-                        onChange={handleChange} />
-                </label>
-                <br />
+                
                 <label>
                     Body:
                     <textarea

@@ -9,7 +9,6 @@ const WridersMood = () => {
         user: "",
         title: "",
         docType: "moodBoard",
-        date: "",
         body: "",
         favorites: false,
     });
@@ -71,16 +70,6 @@ const WridersMood = () => {
                 type="text"
                 name="title"
                 value={entry.title}
-                onChange={handleChange} />
-            </label>
-            <br />
-
-            <label>
-                Date:
-                <input
-                type="date"
-                name="date"
-                value={entry.date}
                 onChange={handleChange} />
             </label>
             <br />
