@@ -25,23 +25,40 @@ const WridersHome = () => {
     fetchEntries();
   }, []);
 
+  //switch statemnet for className to allow for coloring each docType differently
+  const docClass = (docType) => {
+    switch (docType) {
+      case 'journal':
+        return 'journalColor';
+      case 'manuscript':
+        return'manuscriptColor';
+      case'moodBoard':
+        return 'moodboardColor';
+    }
+  }
+
   return (
     <div>
-      <h1>Welcome back, Wrider User</h1>
-      <h2><RandomQuote/></h2>
+      <h1 className="header">Welcome back, Wrider User</h1>
+      <h2 className="quote"><RandomQuote/></h2>
       {/* <Quote /> */}
       <Navbar />
       <div className="container-fluid overflow-scroll">
-        {/* <ul class="card-text"> */}
+        {/* <ul className="card-text"> */}
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
           {entries.map((entry) => (
+            // <div className="col mb-4" key={entry._id}>
             <div className="col mb-4" key={entry._id}>
+              {/* <Link
+                to={`/wrider/${entry._id}`}
+                className=
+              > */}
               <Link
                 to={`/wrider/${entry._id}`}
                 className="text-decoration-none"
               >
                 <div
-                  className="card h-100 shadow p-3 mb-5 bg-body rounded"
+                  className={`card h-100 shadow p-3 mb-5 bg-body rounded ${docClass(entry.docType)}`}
                   // style={{ width: "18rem" }}
                 >
                   <div className="card-body">
