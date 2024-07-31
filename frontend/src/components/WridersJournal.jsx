@@ -71,7 +71,7 @@ const WridersJournal = () => {
 
     return (
         <div>
-            <h1 className='header'>Journal Entry</h1>
+            <h1>Journal Entry</h1>
         <form onSubmit={handleSubmit}>
             <label>
                 User:

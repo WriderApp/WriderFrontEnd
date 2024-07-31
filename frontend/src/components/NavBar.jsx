@@ -8,7 +8,8 @@ const NavBar = () => {
       <Link to="/" className="navbar-logo">
         <img src={wriderLogo} alt="Wrider Logo" />
       </Link>
-      <h1 id="logoText">Wrider</h1>
+      <h1>Wrider</h1>
+      <h2>Inspiration Organized</h2>{" "}
       <ul className="navbar-links">
         <li>
           <Link to="/">Home</Link>

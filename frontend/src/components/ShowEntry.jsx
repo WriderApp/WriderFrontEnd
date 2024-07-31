@@ -74,7 +74,7 @@ const ShowEntry = () => {
 
     return (
         <div>
-            <h1 className='header'>{entry.title}</h1>
+            <h1>{entry.title}</h1>
             <p>{entry.body}</p>
             <img id="stars" src={`/public/images/${entry.rating}.png`} />
             <br />
