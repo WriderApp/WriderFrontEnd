@@ -76,7 +76,7 @@ const ShowEntry = () => {
         <div>
             <h1>{entry.title}</h1>
             <p>{entry.body}</p>
-            <img id="stars" src={`/public/images/${entry.rating}.png`} />
+            <img id="stars" src={`/public/images/${entry.rating}.png`} alt="star-rating"/>
             <br />
             <br />
             <button onClick={handleEdit}>Edit</button>
