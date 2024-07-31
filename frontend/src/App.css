@@ -96,6 +96,10 @@ h1 {
   animation: card-gradient 2s infinite; */
 }
 
+#stars {
+  height: 1em;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
