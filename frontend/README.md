@@ -90,19 +90,19 @@ A simple, mostly text-based application for creatives to organize their thoughts
 * Filter Index by docType
 
 ## <a name="deployment"></a>Deployed Link
-* Peep the deployed site:
+Peep the deployed site:
 
 https://wriders.netlify.app/wrider
 
-* Render back end deployment:
+Render back end deployment:
 
 https://wriderbackend.onrender.com/wrider
 
-* Check out the front end repository:
+Check out the front end repository:
 
 https://github.com/WriderApp/WriderFrontEnd
 
-* Check out the back end repository:
+Check out the back end repository:
 
 https://github.com/WriderApp/WriderBackEnd
 
@@ -115,7 +115,9 @@ Find Me on GitHub: https://github.com/casy1996
 
 **Front End Lead:**
 ```
-Elizabeth is self taught in print graphic design, Elizabeth Whitmire (she/her) began her career in 1990. Wanting to broaden her skills, she began studying software development in 2024. She currently lives in Yakima, WA with her dog and cat.
+Elizabeth is self taught in print graphic design, Elizabeth Whitmire (she/her) began her career in 1990.
+Wanting to broaden her skills, she began studying software development in 2024.
+She currently lives in Yakima, WA with her dog and cat.
 ```
 Find Me on GitHub: https://github.com/MacPhyle
 Design Portfolio: http://whitmire.ink
