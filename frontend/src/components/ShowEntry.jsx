@@ -74,10 +74,14 @@ const ShowEntry = () => {
 
     return (
         <div>
-            <h1>{entry.title}</h1>
+            <h1 className='header'>{entry.title}</h1>
             <p>{entry.body}</p>
+            <img id="stars" src={`/images/${entry.rating}.png`} alt="star-rating"/>
+            <br />
+            <br />
             <button onClick={handleEdit}>Edit</button>
             <button onClick={handleDelete}>Delete</button>
+            <button onClick={() => navigate(-1)}>Back</button> 
         </div>
     );
 };

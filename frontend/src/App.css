@@ -5,6 +5,116 @@
   text-align: center;
 }
 
+/* body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+} */
+
+/* *, html {
+  margin:0;
+  border:0;
+  } */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.app-container {
+  flex-grow: 1;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.journalColor {
+  background-color: #dbbeea !important;
+}
+
+.manuscriptColor {
+  background-color: #fac8d0 !important;
+}
+
+.moodboardColor {
+  background-color: #b9dcf5 !important;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+.header {
+  font-family: "eds-market-bold-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #06aed5;
+  text-shadow: #dbbeea 3px 3px 0;
+}
+
+.slogan {
+  font-family: "latienne-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#logoText {
+  font-family: "eds-market-bold-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #06aed5;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.navbar-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar-links li {
+  margin-bottom: 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  color: #007bff;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,6 +126,32 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  max-height: 300px;
+  overflow-y: hidden;
+}
+
+.card-body {
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 20px;
+  /* background: linear-gradient(to bottom, #646cff, #535bf2);
+  animation: card-gradient 2s infinite; */
+}
+
+#stars {
+  height: 1em;
 }
 
 @keyframes logo-spin {
@@ -31,10 +167,6 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
 }
 
 .read-the-docs {
