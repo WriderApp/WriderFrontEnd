@@ -16,8 +16,6 @@ const WridersMood = () => {
 
     const navigate = useNavigate();
 
-    //const URL = "http://localhost:4000/journal/wrider";
-    //const URL = process.env.REACT_APP_API_URL;
     const URL = import.meta.env.VITE_APP_API_URL;
 
     useEffect(() => {
@@ -35,17 +33,12 @@ const WridersMood = () => {
         }));
     };
 
-    //Manage for submission & redirect
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
             const method = id ? "PUT" : "POST";
             const endpoint = id ? `${URL}/wrider/${id}` : `${URL}/wrider`;
-            //await fetch(`${URL}/wrider`, {
-            //  method: "POST",
-            //  headers: {"Content-Type": "application/json" },
-            //  body: JSON.stringify(formData),
-            // });
+    
             await fetch(endpoint, {
                 method,
                 headers: { "Content-Type": "application/json" },
@@ -115,7 +108,6 @@ const WridersMood = () => {
             </label>
             <br />
 
-            {/* <button type="submit">Create Entry</button> */}
             <button type="submit"> {id ? "Save Changes" : "Create Entry"} </button>
         </form>
         <button onClick={() => navigate(-1)}>Back</button> 
@@ -125,4 +117,3 @@ const WridersMood = () => {
 
 export default WridersMood;
 
-//Code as per Christopher Sy

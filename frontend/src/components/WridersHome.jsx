@@ -6,9 +6,7 @@ import "../App.css";
 
 const WridersHome = () => {
   const [entries, setEntries] = useState([]);
-  //Once app is deployed, change URL from http: to https: (secured)
-  // const URL = 'http://localhost:4000/wrider';
-  // const URL = process.env.REACT_APP_API_URL;
+
   const URL = import.meta.env.VITE_APP_API_URL;
 
   const fetchEntries = async () => {
@@ -25,7 +23,6 @@ const WridersHome = () => {
     fetchEntries();
   }, []);
 
-  //switch statemnet for className to allow for coloring each docType differently
   const docClass = (docType) => {
     switch (docType) {
       case 'journal':
@@ -35,7 +32,7 @@ const WridersHome = () => {
       case'moodBoard':
         return 'moodboardColor';
     }
-  }
+  };
 
   return (
     <div>
