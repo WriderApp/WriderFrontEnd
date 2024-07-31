@@ -107,6 +107,8 @@ const WridersMood = () => {
                 <input
                 type="number"
                 name="rating"
+                min="0"
+                max="5"
                 value={entry.rating}
                 onChange={handleChange}
                 />
