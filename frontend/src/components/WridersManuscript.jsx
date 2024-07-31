@@ -61,7 +61,7 @@ const WridersManuscript = () => {
 
     return (
         <div>
-            <h1>Manuscript</h1>
+            <h1 className='header'>Manuscript</h1>
             <form onSubmit={handleSubmit}>
                 <label>
                     User:
