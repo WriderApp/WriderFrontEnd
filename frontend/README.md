@@ -65,20 +65,29 @@ A simple, mostly text-based application for creatives to organize their thoughts
 * Peep the deployed site:
 https://wriders.netlify.app/wrider
 
-* Render backend deployment:
+* Render back end deployment:
 https://wriderbackend.onrender.com/wrider
 
-* Check out the repository:
+* Check out the front end repository:
 https://github.com/WriderApp/WriderFrontEnd
 
+* Check out the back end repository:
+https://github.com/WriderApp/WriderBackEnd
+
 ## <a name="author"></a> About the Author
-* Back End Lead:
+** Back End Lead: **
+```
 Christopher is an up and coming full-stack software developer with a passion for design and all things visual.
 Find Me on GitHub: https://github.com/casy1996
-* Front End Lead:
+```
+** Front End Lead: **
+```
 Elizabeth is self taught in print graphic design, Elizabeth Whitmire (she/her) began her career in 1990. Wanting to broaden her skills, she began studying software development in 2024. She currently lives in Yakima, WA with her dog and cat.
 Find Me on GitHub: https://github.com/MacPhyle
 Design Portfolio: http://whitmire.ink
-* Scrum Lead:
+```
+** Scrum Lead: **
+```
 Nadia is a quirky, fledgling developer with a colorful background in hospitality, manufacturing, and wellness.
 Find me on GitHub: https://github.com/nadianicole1990
+```
