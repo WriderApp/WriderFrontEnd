@@ -8,13 +8,9 @@ Home Page:
 
 <img width="1727" alt="Screenshot 2024-07-31 at 15 59 37" src="https://github.com/user-attachments/assets/04a158df-7884-4130-817b-b6ad53e3c4fe">
 
-Journal Create Page:
+Journal  and Manuscript Create Page:
 
 <img width="725" alt="Screenshot 2024-07-31 at 16 00 17" src="https://github.com/user-attachments/assets/cd891352-955f-43dc-aa79-3dcc5910f79a">
-
-Manuscript Create Page:
-
-<img width="750" alt="Screenshot 2024-07-31 at 16 01 16" src="https://github.com/user-attachments/assets/856976fc-ce3d-480d-ba76-c7a9f936b6eb">
 
 Mood Board Create Page:
 
@@ -115,7 +111,7 @@ Find Me on GitHub: https://github.com/casy1996
 
 **Front End Lead:**
 ```
-Elizabeth is self taught in print graphic design, Elizabeth Whitmire (she/her) began her career in 1990.
+Self taught in print graphic design, Elizabeth Whitmire (she/her) began her career in 1990.
 Wanting to broaden her skills, she began studying software development in 2024.
 She currently lives in Yakima, WA with her dog and cat.
 ```
